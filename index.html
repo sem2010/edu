@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>구글 계정 안내</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>우리 학교 구글 워크스페이스 시작하기! 🚀</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>🏫 우리 학교 구글 워크스페이스 시작하기! 🚀</h1>
+        <hr>
+        <p>안녕하세요, 신입생 여러분! 👋 우리 학교에서는 여러분의 즐거운 학습을 위해 <strong>구글 워크스페이스</strong>를 활용하고 있어요. 구글 워크스페이스는 마치 여러분만의 디지털 학습 공간과 같아요! 이 웹페이지에서 학교 계정으로 로그인하는 방법부터 <strong>구글 클래스룸</strong>에서 과제를 확인하고 제출하는 방법까지 쉽고 재미있게 알려드릴게요. 자, 그럼 함께 시작해 볼까요? 🥳</p>
+        <hr>
+    </header>
+
+    <main>
+        <section id="login-section">
+            <h2>💻 구글 계정으로 로그인하기 🔑</h2>
+            <p>우리 학교에서 지급받은 구글 계정으로 로그인하는 방법을 알아볼까요?</p>
+            <button onclick="startSimulation('login')">로그인 시뮬레이션 시작하기</button>
+        </section>
+
+        <section id="check-assignment-section">
+            <h2>📋 구글 클래스룸에서 과제 확인하기 👀</h2>
+            <p>선생님이 내주신 과제는 구글 클래스룸에서 확인할 수 있어요.</p>
+            <button onclick="startSimulation('checkAssignment')">과제 확인 시뮬레이션 시작하기</button>
+        </section>
+
+        <section id="submit-assignment-section">
+            <h2>📝 과제 제출하기: 유형별 완전 정복! ✅</h2>
+            <p>과제 유형에 따라 제출하는 방법이 조금씩 달라요. 아래에서 각 유형별 제출 방법을 시뮬레이션으로 연습해 보세요!</p>
+
+            <h3>📊 시트형 과제 제출하기 엑셀 시트처럼 생긴 과제는 이렇게 제출해요!</h3>
+            <button onclick="startSimulation('submitSheet')">시트형 과제 제출 시뮬레이션 시작하기</button>
+
+            <h3>📸 사진/문서 첨부형 과제 제출하기 📸</h3>
+            <p>사진을 찍거나 문서를 작성해서 제출하는 과제는 이렇게!</p>
+            <button onclick="startSimulation('submitAttachment')">사진/문서 첨부형 과제 제출 시뮬레이션 시작하기</button>
+        </section>
+    </main>
+
+    <div id="simulation-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <div id="simulation-display"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
